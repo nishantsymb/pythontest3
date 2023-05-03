@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Test</title>
+    <style>
+        body {
+            background:            linear-gradient(to left top  ,#7C6BD0 ,#432E45 );
+            background-attachment: fixed; /*edit*/
+            font-family: Tahoma, sans-serif;
+        }
+    img{
+        text-align:center;
+width:30%;
+display:block;
+margin:auto;
+    }
+    
+    h1,h2,a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    font-family: Tahoma, sans-serif;
+    }
+    h1{
+        font-size: 4em ;
+        text-align: center;
+        font-family: Tahoma, sans-serif;
+    }
+        </style>
+</head>
+<body>
+    <h1>Sample Page</h1>
+    <h2>Today is: {{date}}<sup>{{daySuffix}}</sup>&nbsp;{{month}} {{year}}</h2>
+    <br>
+	<img id="random-image" src='{{image_url}}'>
+    <br>
+    <a href="\">Click this link to get random image</a>
+</body>
+</html>
